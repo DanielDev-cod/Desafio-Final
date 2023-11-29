@@ -45,6 +45,8 @@ header {
 .promo{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
   /* margin-top: 33px;
   margin-left: 69px;
   margin-bottom: 28px; */
@@ -56,6 +58,8 @@ h3{
   font-size: 20px;
   font-weight: 700;
 
+  border: 2px solid red;
+
 }
 
 .promo p{
@@ -64,6 +68,8 @@ h3{
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+
+  border: 2px solid red;
 }
 
 .promo::after{
