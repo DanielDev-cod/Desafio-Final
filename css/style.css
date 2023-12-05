@@ -14,9 +14,6 @@
   --color-branco: #f9f9f9;
 }
 
-body{
-  background-color: var(--color-branco);
-}
 
 header {
   display: flex;
@@ -53,6 +50,11 @@ header {
   width: 100%;
 }
 
+.promo{
+  padding-block: 36px;
+  border-bottom: 1px solid var(--color-cinza);
+}
+
 h3{
   color: var(--color-preto);
   font-family: 'Lato', sans-serif;
@@ -61,9 +63,6 @@ h3{
   margin-top: 34px;
   margin-left: 69px;
   margin-bottom: 28px;
-
-  border: 2px solid red;
-
 }
 
 .promo p{
@@ -74,18 +73,10 @@ h3{
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-
-  border: 2px solid red;
 }
 
-.promo::after{
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  margin-top: 36px;
-  background-color: var(--color-cinza);
-}
+
+
 
 .cards{
   display: flex;
@@ -103,8 +94,15 @@ h3{
   cursor: pointer;
 }
 
-.cards img:active{
-  color: var(--color-verde);
+figure{
+  width: 300px;
+  height: 300px;
+  background-color: var(--color-verde);
+}
+
+figure img:hover{
+  transition: 500ms linear;
+  opacity: 0.5;
 }
 
 .texto-p{
@@ -149,7 +147,13 @@ span{
 
 .btn:hover{
   background-color: var(--color-maron);
+  transition: 500ms linear;
 }
+
+.btn-p:hover{
+  color: var(--color-verde);
+}
+
 
 .btn-p{
   font-family: 'Lato', sans-serif;
@@ -159,7 +163,27 @@ span{
 }
 
 footer{
-  background-color: var(--color-cinza);
+ display: flex;
+ justify-content: space-between;
 }
+
+ul{
+  margin-top: 53px;
+  margin-left: 79px;
+  list-style: none;
+}
+
+li{
+  color: var(--color-preto);
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.redes-pagamentos{
+  
+}
+
 
 
