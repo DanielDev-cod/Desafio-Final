@@ -174,7 +174,6 @@ footer .contatos{
   justify-content: space-between;
   padding: 15px;
   margin-top: 44px;
-  margin-bottom: 55px;
   margin-inline: 79px;
 }
 
@@ -229,6 +228,30 @@ input {
   color: var(--color-branco);
   font-size: 20px;
   font-weight: 800;
+}
+
+.footer-barra-cima{
+  margin-top: 55px;
+}
+
+.footer-barra-baixo{
+  margin-top: 39px;
+}
+
+@media (min-width: 320px) and (max-width: 1240px ){
+
+  .cards{
+    flex-wrap: wrap;
+  }
+
+  .contatos{
+    flex-wrap: wrap;
+  }
+
+  .pagamento{
+    flex-wrap: wrap;
+  }
+
 }
 
 
