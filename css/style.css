@@ -17,7 +17,9 @@
 header {
   display: flex;
   justify-content: space-between;
+  background-color: var(--color-branco);
 }
+
 
 .logo {
   margin-top: 32px;
@@ -128,6 +130,10 @@ span {
   color: var(--color-verde);
 }
 
+.preco-linha{
+  text-decoration: underline;
+}
+
 .btn {
   width: 170px;
   height: 51px;
@@ -158,8 +164,7 @@ span {
 }
 
 footer {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  display: flex;
   margin-inline: 79px;
 }
 
@@ -193,6 +198,7 @@ input {
   color: var(--color-cinza);
   font-family: "Lato", sans-serif;
   font-size: 20px;
+  margin-top: 18px;
   border-radius: 5px 0px 0px 5px;
   border: none;
   outline: none;
@@ -217,7 +223,4 @@ input {
   font-weight: 800;
 }
 
-.pagamento{
-  display: flex;
-  
-}
+
