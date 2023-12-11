@@ -172,7 +172,8 @@ footer .contatos{
 .pagamento{
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  align-items: center;
+  margin-bottom: 45px;
   margin-top: 44px;
   margin-inline: 79px;
 }
@@ -213,6 +214,15 @@ input {
   outline: none;
 }
 
+/* .footer-barra{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  height: 75px;
+
+  border: 1px solid red;
+} */
+
 .button-input {
   width: 152px;
   height: 54px;
@@ -249,7 +259,9 @@ input {
   }
 
   .pagamento{
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 26px;
   }
 
 }
